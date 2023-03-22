@@ -19,6 +19,7 @@ const Circle = styled.div`
   height: 380px;
   background-color: transparent;
   animation: ${moveCircle} 4s infinite;
+  
 
   @media (max-width: 740px) {
     width: 230px;
@@ -28,12 +29,14 @@ const Circle = styled.div`
 
 export const ProfilePicture = styled.div`
   position: relative;
+  
 `;
 
 export const Circle1 = styled(Circle)`
   top: -20px;
   left: -15px;
   border: 4px solid #ffcb48;
+  
 `;
 
 export const ProfileWithCircles = styled.div`
@@ -41,10 +44,11 @@ export const ProfileWithCircles = styled.div`
   width: 40%;
 
   @media (max-width: 740px) {
-    width: 100%;
+    width: 50%;
     position: relative;
     display: flex;
-    justify-content: center;
+    bottom: -80px;
+    margin: auto;
   }
 `;
 
@@ -65,4 +69,5 @@ export const CirclesContainer = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
+  
 `;

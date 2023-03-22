@@ -40,6 +40,6 @@ export const Intro = styled.h1`
   margin: auto;
 
   @media (max-width: 740px) {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 `

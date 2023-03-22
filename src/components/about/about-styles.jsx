@@ -16,6 +16,10 @@ export const AboutContainer = styled.div`
     -webkit-backdrop-filter: blur( 7px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    @media (max-width: 740px) {
+      padding: 30px 25px ;
+    }
 `
 
 export const AboutName = styled.h1`
@@ -24,6 +28,10 @@ export const AboutName = styled.h1`
   padding-bottom: 20px;
   text-transform: uppercase;
   font-weight: 400;
+
+  @media (max-width: 740px) {
+    font-size: 30px;
+  }
 `;
 
 export const AboutDescription = styled.p`

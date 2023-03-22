@@ -17,6 +17,10 @@ export const SocialIcons = styled(Link)`
     display: flex;
     width: 10%;
     justify-content: space-around;
+
+    @media (max-width: 740px) {
+      width: 25%;
+    }
 `
 
 export const IconLink = styled(Link)`

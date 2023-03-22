@@ -12,6 +12,10 @@ export const NavBarContainer = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: 1.5em;
+
+    @media (max-width: 600px){
+        justify-content: end;
+    }
 `;
 
 export const IconList = styled.div`
@@ -20,8 +24,12 @@ export const IconList = styled.div`
     justify-content: space-around;
     align-items: center;
 
-    @media (max-width: 830px){
-        width: auto;
+    @media (max-width: 900px){
+        width: 30%
+    }
+
+    @media (max-width: 600px){
+        display: none;
     }
 `
 
