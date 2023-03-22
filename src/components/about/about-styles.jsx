@@ -10,7 +10,7 @@ export const AboutContainer = styled.div`
     color: white;
     align-items: center;
 
-    background: rgba( 255, 255, 255, 0.1 );
+    background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
     backdrop-filter: blur( 7px );
     -webkit-backdrop-filter: blur( 7px );
@@ -19,7 +19,7 @@ export const AboutContainer = styled.div`
 `
 
 export const AboutName = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   margin: 0;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -31,7 +31,6 @@ export const AboutDescription = styled.p`
   margin: 16px 0;
   font-family: franklin-gothic-condensed;
   letter-spacing: 1px;
-  font-weight: 600;
 `;
 
 export const SkillContainer = styled.div`
@@ -54,16 +53,16 @@ export const SkillName = styled.p`
 `;
 
 export const ProgressBar = styled.div`
-  height: 15px;
+  height: 5px;
   width: 100%;
   background-color: #e8e8e8;
   border-radius: 10px;
 `;
 
 export const Progress = styled.div`
-  height: 15px;
+  height: 5px;
   border-radius: 10px;
   width: ${props => props.percentage}%;
   transition: width 1s ease-out;
-  background: linear-gradient(to right, #9e9e9e, #888888);
+  background: linear-gradient(to right, #ff0004, #ffb700);
 `;

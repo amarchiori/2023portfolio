@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-    background: rgb(232,72,85);
-    background: linear-gradient(0deg, rgba(232,72,85,1) 0%, rgba(253,29,29,1) 48%, rgba(252,187,25,1) 100%);
     padding: 100px 0px;
     width: 100vw;
     max-width: 100vw;
+    background-color: #131313;
 
     @media (max-width: 768px){
         padding-left: 10px;
@@ -25,7 +24,7 @@ export const ProjectSnapshot = styled.div`
     margin-bottom: 100px;
     color: white;
 
-    background: rgba( 255, 255, 255, 0.4 );
+    background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
     backdrop-filter: blur( 7px );
     -webkit-backdrop-filter: blur( 7px );
@@ -74,8 +73,8 @@ export const ProjectLink = styled(Link)`
     text-decoration: none;
     font-family: franklin-gothic-condensed;
     font-weight: 600;
-    background-color: rgba(18, 35, 51, 0.2);
-    color: whitesmoke;
+    background-color: #E84855;
+    color: #dddddd;
     padding: 10px 20px;
     border-radius: 40px;
     margin: 5px;

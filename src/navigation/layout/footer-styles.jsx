@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-    background-color: #000000;
+    background-color: rgb(27, 27, 27);
     position: sticky;
     width: 100%;
     max-width: 100%;
@@ -11,12 +11,6 @@ export const FooterContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 40px 20px;
-`
-export const Contact = styled(Link)`
-    color: white;
-    font-weight: 400;
-    letter-spacing: .5px;
-    text-decoration: none;
 `
 
 export const SocialIcons = styled(Link)`

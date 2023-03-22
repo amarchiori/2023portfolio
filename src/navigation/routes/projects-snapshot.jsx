@@ -21,7 +21,7 @@ function ProjectsSnapshot() {
         <ProjectContents>
           <h1>Pure Plate Cookbook</h1>
           <ShortDescription>
-          Pure Plate is a cookbook app that allows you to create your own recipe, with ingredients, directions, and a picture. The design started back in 2017 by using Adobe InDesign and Adobe XD. I created a cookbook design and a Brand Book for a ficticious company and used them to start to build out the Pure Plate app. By combining typography, design, and web development skills, this project BY FAR is my toughest but most exciting app I've worked on. Feel free to add your own recipe!          </ShortDescription>
+          Pure Plate is a cookbook app that allows you to create your own recipe, with ingredients, directions, and a picture. The design started back in 2017 by using Adobe InDesign and Adobe XD. I created a cookbook design and a Brand Book for a ficticious company and used them to start to build out the Pure Plate app. By combining typography, design, and web development skills, this is my most exciting app I've worked on. Feel free to add your own recipe!          </ShortDescription>
           <div>
             <ProjectLink to="https://github.com/amarchiori/pure-plate">Code</ProjectLink>
             <ProjectLink to="https://pure-plate.vercel.app/">Live</ProjectLink>

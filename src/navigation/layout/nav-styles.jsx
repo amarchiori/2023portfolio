@@ -31,6 +31,7 @@ export const Alessandra = styled(Link)`
     font-weight: 700;
     text-decoration: none;
     padding-right: 5px;
+    color: white;
 `;
 
 export const MenuIcon = styled(RiMenu5Fill)`
@@ -50,7 +51,8 @@ export const DropdownList = styled.div`
     margin: 0;
     padding: 0;
     width: fit-content;
-    background-color: #000000;
+    background-color: white;
+    border-radius: 10px;
     z-index: 1;
 `;
 
@@ -60,10 +62,10 @@ export const NavItem = styled(Link)`
     font-weight: 400;
     font-size: medium;
     padding: 10px;
-    color: white;
+    color: #E84855;
     text-align: end;
 `;
 
 export const IconLink = styled(Link)`
-    color: black;
+    color: white;
 `

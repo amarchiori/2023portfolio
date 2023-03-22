@@ -12,6 +12,7 @@ export const ProjWrapper = styled.div`
 
 export const Title = styled.span`
     font-family: oxtail;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 3rem;
@@ -39,7 +40,7 @@ export const ToolsUsed = styled.div`
 
 export const Scope = styled.div`
     font-family: franklin-gothic-condensed;
-    border: 1.5px solid #000745;
+    border: 1.5px solid #FCBB19;
     border-radius: 20px;
     grid-column: span 4 / span 4;
     margin: 50px 0px;
@@ -55,13 +56,13 @@ export const Scope = styled.div`
         padding-bottom: 1rem;
         font-weight: 600;
         font-size: 1.5rem;
-        color: #000745
+        color: #e6e6e6
     }
 
     p{
         width: 33%;
         text-align: center;
-        color: #676767;
+        color: #d5d5d5;
     }
 
     @media (max-width: 768px){
@@ -82,8 +83,8 @@ export const ProjImages = styled.div`
     margin-bottom: 50px;
     padding: 50px 0px;
     grid-column: span 4 / span 4;
-    background-color: rgba(0, 7, 69, 0.1);
-    border-radius: 25px;
+    background-color: #131313;
+    border-radius: 20px;
 
     div {
        width: 50%;
@@ -93,7 +94,7 @@ export const ProjImages = styled.div`
        flex: 1 1 100px;
 
        img {
-        box-shadow: .5rem .5rem 1rem #546A7B;
+        box-shadow: .5rem .5rem 1rem #4d4d4d;
         max-width: 100%;
        }
     }
@@ -114,4 +115,6 @@ export const MockupImage = styled.div`
     grid-column: span 4 / span 4;
     display: flex;
     justify-content: center;
+    background-color: #131313;
+    border-radius: 20px;
 `

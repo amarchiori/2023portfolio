@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const HomePage = styled.div`
-  background-color: #ffffff;
   padding: 20px 40px;
   max-width: 100%;
 
@@ -31,6 +30,7 @@ export const IntroContainer = styled.div`
 
 export const Intro = styled.h1`
   font-family: "oxtail";
+  color: white;
   font-weight: 700;
   font-size: 2em;
   height: 75%;

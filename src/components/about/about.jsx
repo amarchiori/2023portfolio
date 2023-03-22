@@ -23,11 +23,11 @@ const About = () => {
   const FrontEndSkills = [    
     { name: 'HTML', percentage: 80 },    
     { name: 'CSS', percentage: 80 },
-    { name: 'JavaScript', percentage: 70 },    
-    { name: 'ReactJS', percentage: 70 },    
-    { name: 'SQL', percentage: 55 }, 
-    { name: 'Firebase', percentage: 60 }, 
-    { name: 'TailwindCSS', percentage: 70 },   
+    { name: 'JavaScript', percentage: 60 },    
+    { name: 'ReactJS', percentage: 60 },    
+    { name: 'SQL', percentage: 35 }, 
+    { name: 'Firebase', percentage: 40 }, 
+    { name: 'TailwindCSS', percentage: 60 },   
   ];
 
 

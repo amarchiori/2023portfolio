@@ -3,21 +3,5 @@
 }
   
 .navbar.colorChange{
-    background-color: black;
-}
-
-.icon{
-    color: black;
-}
-  
-.icon.colorChange{
-    color: white;
-}
-
-.alessandra{
-    color: black;
-}
-  
-.alessandra.colorChange{
-    color: white;
+    background-color: rgb(27, 27, 27);
 }

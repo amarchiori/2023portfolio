@@ -4,6 +4,8 @@ import styled from "styled-components";
 const MailtoButton = styled(Link)`
     color: white;
     text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
 `
 
 const ButtonMailto = ({ mailto, label }) => {
