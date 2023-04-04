@@ -2,7 +2,7 @@ import Layout from "../layout/layout";
 import { HomePage, Intro, IntroContainer } from "./home-styles";
 import ProfileWithMotion from "../../components/profileImage/ProfileWithMotion";
 import TypeIt from "typeit-react";
-import ProjectsSnapshot from "./projects-snapshot";
+import MainDisplay from "./main";
 
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
             <ProfileWithMotion/>
         </IntroContainer>
         </HomePage>
-        <ProjectsSnapshot />
+        <MainDisplay />
     </Layout>
   )
 }

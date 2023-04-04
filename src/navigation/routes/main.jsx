@@ -1,12 +1,13 @@
 import About from "../../components/about/about";
-import { ProjectContainer, ProjectSnapshot, ProjectLink, ProjectContents, ShortDescription } from "./projects-snapshot-styles";
+import { MainContainer, ProjectSnapshot, ProjectLink, ProjectContents, ShortDescription } from "./main-styles";
 
 import PurePlateMockup from '../../assets/PurePlateMockup.jpg';
 import AttivitaMockup from '../../assets/Attivitamockup.png';
 import MonographMockup from '../../assets/MonographMockup.jpg';
 import PosterImg from '../../assets/PaulRandPoster.jpeg';
+import Work from "../../components/work/work";
 
-function ProjectsSnapshot() {
+function MainDisplay() {
 
   const handleClick = () => {
     window.scrollTo(0, 0);
@@ -14,8 +15,10 @@ function ProjectsSnapshot() {
 
   
   return (
-    <ProjectContainer>
+    <MainContainer>
       <About/>
+      <Work/>
+      
       <ProjectSnapshot>
         <img src={PurePlateMockup} alt="PurePlateMockup"/>
         <ProjectContents>
@@ -62,8 +65,8 @@ function ProjectsSnapshot() {
           </div>
         </div>
       </ProjectSnapshot>
-    </ProjectContainer>
+    </MainContainer>
   )
 }
 
-export default ProjectsSnapshot;
+export default MainDisplay;

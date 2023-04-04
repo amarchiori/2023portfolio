@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const ProjectContainer = styled.div`
+export const MainContainer = styled.div`
     padding: 100px 0px;
     width: 100vw;
     max-width: 100vw;

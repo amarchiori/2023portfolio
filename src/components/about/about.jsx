@@ -34,7 +34,7 @@ const About = () => {
   return (
     <AboutContainer>
         <AboutName>Alessandra Marchiori</AboutName>
-        <AboutDescription>Design consultant with 3 years of experience at ShelfGenie with strong communication skills. Proven ability to create user-friendly and intuitive UI/ UX designs for web applications. Seeking a position as a Frontend Developer to leverage experience and skills to create engaging and innovative digital solutions.</AboutDescription>
+        <AboutDescription>BFA in Graphic Design and have experience with UI/UX design. I am highly motivated with years of experience in customer service and e-commerce administration. I've successfully managed a team of 3 while also doing admin work for an e-commerce company. Became an associate to manager of a cake boutique within 1 year. I am currently working as a self-employed design sales consultant for the past 3 years, presenting persuasive presentations using 3D CAD software. I am proficient in React and learning Next.js and always striving to learn new skills.</AboutDescription>
         <SkillContainer >
           <SkillSection>
             {DesignSkills.map(skill => (
