@@ -33,7 +33,7 @@ const About = () => {
 
   return (
     <AboutContainer>
-        <AboutName>Alessandra Marchiori</AboutName>
+        <AboutName>Alessandra Marchiori Acoba</AboutName>
         <AboutDescription>BFA in Graphic Design and have experience with UI/UX design. I am highly motivated with years of experience in customer service and e-commerce administration. I've successfully managed a team of 3 while also doing admin work for an e-commerce company. Became an associate to manager of a cake boutique within 1 year. I am currently working as a self-employed design sales consultant for the past 3 years, presenting persuasive presentations using 3D CAD software. I am proficient in React and learning Next.js and always striving to learn new skills.</AboutDescription>
         <SkillContainer >
           <SkillSection>

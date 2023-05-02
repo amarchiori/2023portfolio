@@ -2,12 +2,21 @@ import {
     WorkContainer,
     WorkSection,
     WorkName,
-    TimeFrame 
+    TimeFrame,
+    HeadWork,
+    WorkTitle, 
 } from './work-styles'
 
 const Work = () => {
   return (
-    <>
+    <>            
+        <HeadWork>
+            <hr/>
+                <WorkTitle>
+                    Work Experience
+                </WorkTitle>
+            <hr/>
+        </HeadWork>
         <WorkContainer>
             <WorkSection>
                 <WorkName>Design Consultant - ShelfGenie</WorkName>

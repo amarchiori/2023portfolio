@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const MainContainer = styled.div`
+export const ProjectContainer = styled.div`
     padding: 100px 0px;
     width: 100vw;
     max-width: 100vw;
@@ -73,8 +73,8 @@ export const ProjectLink = styled(Link)`
     text-decoration: none;
     font-family: franklin-gothic-condensed;
     font-weight: 600;
-    background-color: #FBFAF9;
-    color: #898989;
+    background-color: #FFD3DB;
+    color: #dddddd;
     padding: 10px 20px;
     border-radius: 40px;
     margin: 5px;

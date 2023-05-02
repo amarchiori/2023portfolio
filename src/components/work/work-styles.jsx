@@ -1,5 +1,29 @@
 import styled from "styled-components";
 
+export const HeadWork = styled.div`
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0px;
+
+    hr {
+        border-color: #cecece;
+        height: 1px;
+        width: 33%;
+        flex-shrink: 1;
+    }
+
+`
+
+export const WorkTitle = styled.p`
+    font-family: oxtail;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFD3DB;
+`
+
 export const WorkContainer = styled.div`
     width: 80vw;
     margin: auto;
@@ -11,13 +35,6 @@ export const WorkContainer = styled.div`
     justify-content: space-around;
     color: white;
     align-items: start;
-
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
-    backdrop-filter: blur( 7px );
-    -webkit-backdrop-filter: blur( 7px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
     @media (max-width: 740px) {
       padding: 30px 25px ;
@@ -48,7 +65,7 @@ export const WorkSection = styled.div`
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
-                background-color: #ffcb48; /* change blue to the desired color */
+                background-color: #FFD3DB;
             } 
         }
     } 

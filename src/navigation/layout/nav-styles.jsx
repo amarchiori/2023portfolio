@@ -43,7 +43,7 @@ export const Alessandra = styled(Link)`
 `;
 
 export const MenuIcon = styled(RiMenu5Fill)`
-    color: #E84855;
+    color: #FBFAF9;
     transform: scale(2);
     cursor: pointer;
 `;
@@ -70,7 +70,7 @@ export const NavItem = styled(Link)`
     font-weight: 400;
     font-size: medium;
     padding: 10px;
-    color: #E84855;
+    color: black;
     text-align: end;
 `;
 

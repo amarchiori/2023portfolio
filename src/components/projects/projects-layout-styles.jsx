@@ -33,14 +33,14 @@ export const ToolsUsed = styled.div`
 
     svg{
         transform: scale(2.5);
-        color: #FCBB19;
+        color: #FFD3DB;
         margin: 10px 20px;
     }
 `
 
 export const Scope = styled.div`
     font-family: franklin-gothic-condensed;
-    border: 1.5px solid #FCBB19;
+    border: 1.5px solid #FFD3DB;
     border-radius: 20px;
     grid-column: span 4 / span 4;
     margin: 50px 0px;
@@ -83,8 +83,6 @@ export const ProjImages = styled.div`
     margin-bottom: 50px;
     padding: 50px 0px;
     grid-column: span 4 / span 4;
-    background-color: #131313;
-    border-radius: 20px;
 
     div {
        width: 50%;
@@ -94,7 +92,6 @@ export const ProjImages = styled.div`
        flex: 1 1 100px;
 
        img {
-        box-shadow: .5rem .5rem 1rem #4d4d4d;
         max-width: 100%;
        }
     }
@@ -115,6 +112,4 @@ export const MockupImage = styled.div`
     grid-column: span 4 / span 4;
     display: flex;
     justify-content: center;
-    background-color: #131313;
-    border-radius: 20px;
 `

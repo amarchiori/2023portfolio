@@ -10,20 +10,13 @@ export const AboutContainer = styled.div`
     color: white;
     align-items: center;
 
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
-    backdrop-filter: blur( 7px );
-    -webkit-backdrop-filter: blur( 7px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
     @media (max-width: 740px) {
       padding: 30px 25px ;
     }
 `
 
 export const AboutName = styled.h1`
-  font-size: 50px;
+  font-size: 44px;
   margin: 0;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -72,5 +65,5 @@ export const Progress = styled.div`
   border-radius: 10px;
   width: ${props => props.percentage}%;
   transition: width 1s ease-out;
-  background: linear-gradient(to right, #ff0004, #ffb700);
+  background: linear-gradient(to right,#FFD3DB, #fe7d7f);
 `;

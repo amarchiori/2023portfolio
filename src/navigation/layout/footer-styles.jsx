@@ -24,5 +24,5 @@ export const SocialIcons = styled(Link)`
 `
 
 export const IconLink = styled(Link)`
-    color: #E84855;
+    color: white;
 `
