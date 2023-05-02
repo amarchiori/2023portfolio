@@ -18,8 +18,8 @@ export const HeadWork = styled.div`
 `
 
 export const WorkTitle = styled.p`
-    font-family: oxtail;
-    font-size: 2rem;
+    font-family: "Hackney";
+    font-size: 3rem;
     text-transform: uppercase;
     color: #FFD3DB;
 `
@@ -47,7 +47,7 @@ export const WorkSection = styled.div`
     padding: 0px 0px 15px 0px;
 
     ul {
-        font-family: franklin-gothic-condensed;
+        font-family: "HKRegular";
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 1px;
@@ -76,12 +76,12 @@ export const WorkSection = styled.div`
 `
 
 export const WorkName = styled.h3`
-    font-family: oxtail;
+    font-family: "Glacial";
     font-size: 1.3rem;
     text-transform: uppercase;
 `
 export const TimeFrame = styled.h6`
-        font-family: franklin-gothic-condensed;
+        font-family: "HKRegular";
         font-size: 14px;
         letter-spacing: 1px;
         margin: 0px;

@@ -5,7 +5,6 @@ export const ProjectContainer = styled.div`
     padding: 100px 0px;
     width: 100vw;
     max-width: 100vw;
-    background-color: #2B4743;
 
     @media (max-width: 768px){
         padding-left: 10px;
@@ -27,7 +26,7 @@ export const ProjectSnapshot = styled.div`
     background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
     backdrop-filter: blur( 7px );
-    -webkit-backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px ); 
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
@@ -40,7 +39,7 @@ export const ProjectSnapshot = styled.div`
         margin-left: -60px;
         border-radius: inherit;
         background-color: white;
-        box-shadow: 0 60px 40px rgba(0, 0, 0, .4);
+        box-shadow: 0 60px 40px rgba(104, 104, 104, 0.4);
     }
 
     @media (max-width: 740px) {

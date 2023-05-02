@@ -30,7 +30,7 @@ export const AboutName = styled.h1`
 export const AboutDescription = styled.p`
   font-size: 18px;
   margin: 16px 0;
-  font-family: franklin-gothic-condensed;
+  font-family: "HKRegular";
   letter-spacing: 1px;
 `;
 
@@ -38,7 +38,7 @@ export const SkillContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-family: franklin-gothic-condensed;
+  font-family: "HKRegular";
   letter-spacing: .1em;
 `
 

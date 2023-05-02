@@ -1,5 +1,5 @@
 import About from "../../components/about/about";
-import { MainContainer, ProjectSnapshot, ProjectLink, ProjectContents, ShortDescription } from "./main-styles";
+import { HeadMain, MainTitle, MainContainer, ProjectSnapshot, ProjectLink, ProjectContents, ShortDescription } from "./main-styles";
 
 import PurePlateMockup from '../../assets/PurePlateMockup.jpg';
 import AttivitaMockup from '../../assets/Attivitamockup.png';
@@ -19,6 +19,13 @@ function MainDisplay() {
       <About/>
       <Work/>
       
+      <HeadMain>
+            <hr/>
+                <MainTitle>
+                    Design
+                </MainTitle>
+            <hr/>
+        </HeadMain>
       <ProjectSnapshot>
         <img src={PurePlateMockup} alt="PurePlateMockup"/>
         <ProjectContents>

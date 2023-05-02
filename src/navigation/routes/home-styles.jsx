@@ -29,10 +29,10 @@ export const IntroContainer = styled.div`
 `
 
 export const Intro = styled.h1`
-  font-family: "oxtail";
+  font-family: "Hackney";
   color: white;
-  font-weight: 700;
-  font-size: 2em;
+  font-size: 4em;
+  letter-spacing: 1.5px;
   height: 75%;
   display: flex;
   place-items: center;
