@@ -25,7 +25,7 @@ function MainDisplay() {
                     Design
                 </MainTitle>
             <hr/>
-        </HeadMain>
+      </HeadMain>
       <ProjectSnapshot>
         <img src={PurePlateMockup} alt="PurePlateMockup"/>
         <ProjectContents>

@@ -66,6 +66,7 @@ export const ProjectSnapshot = styled.div`
         padding: 30px;
         width: 100%;
         max-width: 100%;
+        margin-top: 50px;
 
         img {
             margin: -100px 0px 30px 0px;
