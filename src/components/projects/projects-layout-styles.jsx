@@ -11,11 +11,11 @@ export const ProjWrapper = styled.div`
 `
 
 export const Title = styled.span`
-    font-family: oxtail;
+    font-family: "Glacial";
+    letter-spacing: 2px;
     color: white;
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 3rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
@@ -39,7 +39,7 @@ export const ToolsUsed = styled.div`
 `
 
 export const Scope = styled.div`
-    font-family: franklin-gothic-condensed;
+    font-family: "HKRegular";
     border: 1.5px solid #FFD3DB;
     border-radius: 20px;
     grid-column: span 4 / span 4;

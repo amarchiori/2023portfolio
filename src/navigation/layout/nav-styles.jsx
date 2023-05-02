@@ -22,7 +22,7 @@ export const IconList = styled.div`
     display: flex;
     width: 20%;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 
     @media (max-width: 900px){
         width: 30%
@@ -34,9 +34,8 @@ export const IconList = styled.div`
 `
 
 export const Alessandra = styled(Link)`
-    font-family: "oxtail";
+    font-family: "GlacialBold";
     font-size: 1rem;
-    font-weight: 700;
     text-decoration: none;
     padding-right: 5px;
     color: white;
@@ -66,8 +65,7 @@ export const DropdownList = styled.div`
 
 export const NavItem = styled(Link)`
     text-decoration: none;
-    font-family: 'Franklin Gothic Condensed';
-    font-weight: 400;
+    font-family: 'HKBold';
     font-size: medium;
     padding: 10px;
     color: black;

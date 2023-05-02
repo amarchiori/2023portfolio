@@ -26,15 +26,15 @@ function Frontend() {
             <Scope>
               <p>
                 <span>Overview</span>
-                Pure Plate is a cookbook app that allows you to create your own recipe, with ingredients, directions, and a picture. The design started back in 2017 by using Adobe InDesign and Adobe XD. I created a cookbook design and a Brand Book for a ficticious company and used them to start to build out the Pure Plate app. By combining typography, design, and web development skills, this project BY FAR is my toughest but most exciting app I've worked on. Feel free to add your own recipe!
+                Pure Plate is a cookbook app that allows you to create your own recipe, with ingredients, directions, and a picture. The design started back in 2017 by using Adobe InDesign and Adobe XD. I created a cookbook design and a Brand Book for a ficticious company and used them to start to build out the Pure Plate app. By combining typography, design, and web development skills, this project encompasses all my strengths. Feel free to add your own recipe!
               </p>
               <p>
                 <span>Challenges</span>
-                Working with a new framework. I understood React.js and had to transfer my knowledge to Next.js. By combining 3 different projects together, I had to make compromises with style, colors, and content. 
+                Working with a new framework. I understand React.js and had to transfer my knowledge to using Next.js. One of the biggest challenges I encountered was using Images. Nextjs has their own optimization and I had to take those parameters into account. 
               </p>
               <p>
                 <span>Approach</span>
-                By creating a flow chart, I could visualize a path for coding. I started with building out the database from Firebase then created authentication for sign in and sign up. Lastly, created the UI for the category and individual recipe pages. 
+                By creating a wireframing, I could visualize a path for coding. I started with building out the database from Firebase then created authentication for sign in and sign up. Added in ContextAPI to handle state management, and little by little I designed the UI. Lastly, made sure all of the CRUD functions worked and added User Favorites and User Recipes lists to their profile. 
               </p>
             </Scope>
             <ProjImages>

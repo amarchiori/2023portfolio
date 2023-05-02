@@ -35,7 +35,7 @@ function UX() {
               </p>
               <p>
                 <span>Challenges</span>
-                User experience was my top priority for this project. By understanding the user, understanding why this use would be on my app, I could create a smooth roadmap for them. THe biggest challenge was not to overcomplicated and overwhelm the screen with too many colors, actions, and information for the user. 
+                User experience was my top priority for this project. By understanding the user, understanding why this use would be on my app, I could create a smooth roadmap for them. The biggest challenge was not to overcomplicated and overwhelm the screen with too many colors, actions, and information for the user. 
               </p>
               <p>
                 <span>Approach</span>
