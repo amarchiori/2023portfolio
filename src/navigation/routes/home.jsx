@@ -13,7 +13,7 @@ function Home() {
             <Intro>
             <TypeIt
                 options={{
-                strings: ["Graphic Designer", "Frontend Developer", "Artist"],
+                strings: ["Web Designer", "Salesforce Associate", "Tech Enthusiast"],
                 speed: 75,
                 loop: false,
                 }}
