@@ -12,25 +12,25 @@ function Home() {
         <HomePage>
         <IntroContainer>     
             <Intro>
-            <TypeIt
-                options={{
-                strings: ["Web Designer", "Salesforce Associate", "Tech Enthusiast"],
-                speed: 75,
-                loop: false,
-                cursor: false,
-                }}
-            />
-            <TopSocialIcons>
-              <TopIconLink to='https://www.linkedin.com/in/alessandra-marchiori/'>
-                <FaLinkedinIn/>
-              </TopIconLink>
-              <TopIconLink to='https://www.salesforce.com/trailblazer/alessandramarchiori'>
-                <FaSalesforce/>
-              </TopIconLink>
-              <TopIconLink to='https://github.com/amarchiori'>
-                <FaGithub/>
-              </TopIconLink>
-            </TopSocialIcons>
+              <TypeIt
+                  options={{
+                  strings: ["Web Designer", "Salesforce Associate", "Tech Enthusiast"],
+                  speed: 75,
+                  loop: false,
+                  cursor: false,
+                  }}
+              />
+              <TopSocialIcons>
+                <TopIconLink to='https://www.linkedin.com/in/alessandra-marchiori/'>
+                  <FaLinkedinIn/>
+                </TopIconLink>
+                <TopIconLink to='https://www.salesforce.com/trailblazer/alessandramarchiori'>
+                  <FaSalesforce/>
+                </TopIconLink>
+                <TopIconLink to='https://github.com/amarchiori'>
+                  <FaGithub/>
+                </TopIconLink>
+              </TopSocialIcons>
             </Intro>
             <ProfileWithMotion/>
         </IntroContainer>

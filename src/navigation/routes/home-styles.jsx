@@ -48,7 +48,6 @@ export const Intro = styled.h1`
 
   @media (max-width: 900px) {
     font-size: 2.2rem;
-    place-items: center;
   }
 
   @media (max-width: 740px) {
@@ -64,12 +63,17 @@ export const Intro = styled.h1`
   }
 `
 
-export const TopSocialIcons = styled(Link)`
-
-    @media (max-width: 900px) {
-      display: flex;
-      justify-content: space-evenly;
-    }
+export const TopSocialIcons = styled.div`
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+  @media (max-width: 740px) {
+    margin: 0px;
+    align-self: center;
+  }
 `
 
 export const TopIconLink = styled(Link)`

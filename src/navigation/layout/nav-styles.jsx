@@ -21,7 +21,7 @@ export const NavBarContainer = styled.nav`
 export const IconList = styled.div`
     display: flex;
     width: 20%;
-    justify-content: space-around;
+    justify-content: start;
     align-items: start;
 
     @media (max-width: 900px){
@@ -71,7 +71,3 @@ export const NavItem = styled(Link)`
     color: white;
     text-align: end;
 `;
-
-export const IconLink = styled(Link)`
-    color: white;
-`

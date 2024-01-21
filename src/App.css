@@ -3,5 +3,13 @@
 }
   
 .navbar.colorChange{
-    background-color: #ff5757;
+    background-color: transparent;
+}
+
+.logoName.colorChange{
+    color: black;
+}
+
+.menuIcon.colorChange{
+    color: black;
 }

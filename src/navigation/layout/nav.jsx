@@ -5,10 +5,7 @@ import {
     MenuIcon,
     Alessandra,
     IconList,
-    IconLink
 } from './nav-styles'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import { RiBehanceFill } from 'react-icons/ri'
 import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 
@@ -38,31 +35,13 @@ function NavBar() {
     <>
     <NavBarContainer className={colorChange ? 'navbar colorChange' : 'navbar'}>
         <IconList>
-            <Alessandra to='/' className={colorChange ? 'alessandra colorChange' : 'alessandra'}>
+            <Alessandra to='/' className={colorChange ? 'logoName colorChange' : 'logoName'}>
                 Alessandra M
-            </Alessandra>
-            <IconLink 
-                to='https://www.linkedin.com/in/alessandra-marchiori/'
-                className={colorChange ? 'icon colorChange' : 'icon'}
-            >
-              <FaLinkedinIn/>
-            </IconLink>
-            <IconLink 
-                to='https://github.com/amarchiori'
-                className={colorChange ? 'icon colorChange' : 'icon'}
-            > 
-              <FaGithub /> 
-            </IconLink>
-            <IconLink 
-                to='https://www.behance.net/alessm96'
-                className={colorChange ? 'icon colorChange' : 'icon'}
-            >
-              <RiBehanceFill />
-            </IconLink>     
+            </Alessandra>     
         </IconList> 
         <MenuIcon 
             onClick={toggleDropdown}
-            className="scale-2"
+            className={colorChange ? 'menuIcon colorChange' : 'menuIcon'}
         />
         {isOpen && (
             <DropdownList isOpen={isOpen}>
