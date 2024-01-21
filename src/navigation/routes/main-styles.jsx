@@ -10,7 +10,7 @@ export const HeadMain = styled.div`
     padding: 10px 0px;
 
     hr {
-        border-color: #cecece;
+        border-color: #1f1e1f;
         height: 1px;
         width: 33%;
         flex-shrink: 1;
@@ -22,7 +22,7 @@ export const MainTitle = styled.p`
     font-family: "Hackney";
     font-size: 3rem;
     text-transform: uppercase;
-    color: #FFD3DB;
+    color: #048A81;
 `
 
 export const MainContainer = styled.div`
@@ -45,7 +45,7 @@ export const ProjectSnapshot = styled.div`
     width: 80vw;
     margin: auto;
     margin-bottom: 100px;
-    color: white;
+    color: #1f1e1f;
 
 
     img{
@@ -57,7 +57,7 @@ export const ProjectSnapshot = styled.div`
         margin-left: -60px;
         border-radius: inherit;
         background-color: white;
-        box-shadow: 0 40px 40px rgba(217, 217, 217, 0.2);
+        box-shadow: 0 40px 40px rgba(217, 217, 217, 0.7);
     }
 
     @media (max-width: 740px) {
@@ -90,7 +90,7 @@ export const ShortDescription = styled.p`
 export const ProjectLink = styled(Link)`
     text-decoration: none;
     font-family: "HKLight";
-    background-color: white;
+    background-color: #CBF3F0;
     color: black;
     padding: 10px 20px;
     border-radius: 40px;

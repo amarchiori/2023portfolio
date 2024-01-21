@@ -10,34 +10,34 @@ import {
 } from "./about-styles"
 
 const About = () => {
-  const DesignSkills = [    
-    { name: 'InDesign', percentage: 75 },   
-    { name: 'Photogrpahy', percentage: 75 }, 
-    { name: 'Branding', percentage: 45 },
-    { name: 'UX', percentage: 85 },    
-    { name: 'UI', percentage: 80 },    
-    { name: 'Typography', percentage: 90 },    
-    { name: 'Illustrator', percentage: 55 }, 
+  const SoftSkills = [    
+    { name: 'Customer Service', percentage: 90 },   
+    { name: 'Communication', percentage: 95 }, 
+    { name: 'Time Management', percentage: 85 },
+    { name: 'Project Efficiency', percentage: 85 },    
+    { name: 'Problem Solving', percentage: 80 },    
+    { name: 'Sales Presentation', percentage: 70 },    
+    { name: 'Multi-taksing', percentage: 70 }, 
   ];
 
-  const FrontEndSkills = [    
-    { name: 'HTML', percentage: 80 },    
-    { name: 'CSS', percentage: 80 },
-    { name: 'JavaScript', percentage: 60 },    
-    { name: 'ReactJS', percentage: 60 },    
-    { name: 'SQL', percentage: 35 }, 
-    { name: 'Firebase', percentage: 40 }, 
-    { name: 'TailwindCSS', percentage: 60 },   
+  const TechSkills = [    
+    { name: 'Salesforce', percentage: 75 },    
+    { name: 'HTML/CSS', percentage: 80 },
+    { name: 'Web Development', percentage: 60 },    
+    { name: 'SQL', percentage: 35 },    
+    { name: 'Data Analysis', percentage: 35 }, 
+    { name: 'Adobe Creative Suite', percentage: 80 }, 
+    { name: 'UX/UI', percentage: 60 },   
   ];
 
 
   return (
     <AboutContainer>
         <AboutName>Alessandra Marchiori Acoba</AboutName>
-        <AboutDescription>BFA in Graphic Design and have experience with UI/UX design. I am highly motivated with years of experience in customer service and e-commerce administration. I've successfully managed a team of 3 while also doing admin work for an e-commerce company. Became an associate to manager of a cake boutique within 1 year. I am currently working as a self-employed design sales consultant for the past 3 years, presenting persuasive presentations using 3D CAD software. I am proficient in React and learning Next.js and always striving to learn new skills.</AboutDescription>
+        <AboutDescription>BFA in Graphic Design Passionate about leveraging technology to drive business success, I am a detail-oriented and Certified Salesforce Associate with a proven track record as a Sales Representative for the past 3 years. My commitment to delivering exceptional customer service has been a key driver in exceeding sales targets.</AboutDescription>
         <SkillContainer >
           <SkillSection>
-            {DesignSkills.map(skill => (
+            {SoftSkills.map(skill => (
               <div key={skill.name}>
                 <SkillName>{skill.name}</SkillName>
                 <ProgressBar>
@@ -47,7 +47,7 @@ const About = () => {
             ))}
           </SkillSection>
           <SkillSection>
-            {FrontEndSkills.map(skill => (
+            {TechSkills.map(skill => (
               <div key={skill.name}>
                 <SkillName>{skill.name}</SkillName>
                 <ProgressBar>

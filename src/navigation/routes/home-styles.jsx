@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HomePage = styled.div`
   padding: 20px 40px;
   max-width: 100%;
-
+  background-image: linear-gradient(to top, #ffb199 0%, #ff0844 100%);
 
   @media (max-width: 740px) {
     display: block;

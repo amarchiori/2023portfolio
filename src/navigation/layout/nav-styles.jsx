@@ -42,7 +42,7 @@ export const Alessandra = styled(Link)`
 `;
 
 export const MenuIcon = styled(RiMenu5Fill)`
-    color: #FBFAF9;
+    color: white;
     transform: scale(2);
     cursor: pointer;
 `;
@@ -58,7 +58,7 @@ export const DropdownList = styled.div`
     margin: 0;
     padding: 0;
     width: fit-content;
-    background-color: white;
+    background-color: #565254;
     border-radius: 10px;
     z-index: 1;
 `;
@@ -68,7 +68,7 @@ export const NavItem = styled(Link)`
     font-family: 'HKBold';
     font-size: medium;
     padding: 10px;
-    color: black;
+    color: white;
     text-align: end;
 `;
 

@@ -13,7 +13,7 @@ export const ProjWrapper = styled.div`
 export const Title = styled.span`
     font-family: "Glacial";
     letter-spacing: 2px;
-    color: white;
+    color: #1f1e1f;
     text-transform: uppercase;
     font-size: 4rem;
     display: flex;
@@ -33,14 +33,14 @@ export const ToolsUsed = styled.div`
 
     svg{
         transform: scale(2.5);
-        color: #FFD3DB;
+        color: #048A81;
         margin: 10px 20px;
     }
 `
 
 export const Scope = styled.div`
     font-family: "HKRegular";
-    border: 1.5px solid #FFD3DB;
+    border: 1.5px solid #048A81;
     border-radius: 20px;
     grid-column: span 4 / span 4;
     margin: 50px 0px;
@@ -56,13 +56,13 @@ export const Scope = styled.div`
         padding-bottom: 1rem;
         font-weight: 600;
         font-size: 1.5rem;
-        color: #e6e6e6
+        color: #1f1e1f;
     }
 
     p{
         width: 33%;
         text-align: center;
-        color: #d5d5d5;
+        color: #1f1e1f;
     }
 
     @media (max-width: 768px){

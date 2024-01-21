@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-    background-color: rgb(27, 27, 27);
+    background-color: #1F1E1F;
     position: sticky;
     width: 100%;
     max-width: 100%;

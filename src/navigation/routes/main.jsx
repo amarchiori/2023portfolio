@@ -22,7 +22,7 @@ function MainDisplay() {
       <HeadMain>
             <hr/>
                 <MainTitle>
-                    Design
+                    Projects
                 </MainTitle>
             <hr/>
       </HeadMain>

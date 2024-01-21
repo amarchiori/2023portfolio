@@ -9,7 +9,7 @@ export const HeadWork = styled.div`
     padding: 10px 0px;
 
     hr {
-        border-color: #cecece;
+        border-color: #1f1e1f;
         height: 1px;
         width: 33%;
         flex-shrink: 1;
@@ -21,7 +21,7 @@ export const WorkTitle = styled.p`
     font-family: "Hackney";
     font-size: 3rem;
     text-transform: uppercase;
-    color: #FFD3DB;
+    color: #048A81;
 `
 
 export const WorkContainer = styled.div`
@@ -33,7 +33,7 @@ export const WorkContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    color: white;
+    color: #1f1e1f;
     align-items: start;
 
     @media (max-width: 740px) {
@@ -65,7 +65,7 @@ export const WorkSection = styled.div`
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
-                background-color: #FFD3DB;
+                background-color: #00916E;
             } 
         }
     } 

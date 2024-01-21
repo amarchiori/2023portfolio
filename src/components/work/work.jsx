@@ -13,14 +13,23 @@ const Work = () => {
         <HeadWork>
             <hr/>
                 <WorkTitle>
-                    Work Experience
+                    Experience
                 </WorkTitle>
             <hr/>
         </HeadWork>
         <WorkContainer>
             <WorkSection>
-                <WorkName>Design Consultant - ShelfGenie</WorkName>
-                <TimeFrame>2020-Present</TimeFrame>
+                <WorkName>Sales Rep - Closet America</WorkName>
+                <TimeFrame>Sep 2023 - Dec 2023</TimeFrame>
+                <ul>
+                    <li>Utilized Salesforce customer relationship management (CRM) software to track and analyze sales data.</li>
+                    <li>Demonstrated strong technical proficiency in 3D software, employing advanced features to create realistic visualizations that effectively showcased the product's features and benefits.</li>
+                    <li>Implemented a strategic sales plan, nurtured client relationships, and conducted effective product presentations to prospective customers.</li>
+                </ul>
+            </WorkSection>
+            <WorkSection>
+                <WorkName>Sales Rep - ShelfGenie</WorkName>
+                <TimeFrame>2020-2023 <i>Maryland and Florida</i></TimeFrame>
                 <ul>
                     <li>Developed 3D digital mockups to showcase customized storage solutions.</li>
                     <li>Crafted and presented persuasive sales presentations to customers 2-3 times a day. </li>

@@ -35,7 +35,7 @@ export const ProfilePicture = styled.div`
 export const Circle1 = styled(Circle)`
   top: -20px;
   left: -15px;
-  border: 4px solid #FFD3DB;
+  border: 4px solid #CBF3F0;
   
 `;
 

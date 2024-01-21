@@ -7,7 +7,7 @@ export const AboutContainer = styled.div`
     padding: 60px 50px ;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #1f1e1f;
     align-items: center;
 
     @media (max-width: 740px) {
@@ -65,5 +65,5 @@ export const Progress = styled.div`
   border-radius: 10px;
   width: ${props => props.percentage}%;
   transition: width 1s ease-out;
-  background: linear-gradient(to right,#FFD3DB, #fe7d7f);
+  background: linear-gradient(to right,#FFD3DB, #ff5757);
 `;
