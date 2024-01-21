@@ -20,6 +20,10 @@ const Circle = styled.div`
   background-color: transparent;
   animation: ${moveCircle} 4s infinite;
   
+  @media (max-width: 900px) {
+    width: 330px;
+    height: 330px;
+  }
 
   @media (max-width: 740px) {
     width: 230px;
@@ -35,19 +39,32 @@ export const ProfilePicture = styled.div`
 export const Circle1 = styled(Circle)`
   top: -20px;
   left: -15px;
-  border: 4px solid #CBF3F0;
-  
+  border: 4px solid #CBF3F0; 
 `;
 
 export const ProfileWithCircles = styled.div`
   position: relative;
   width: 40%;
 
-  @media (max-width: 740px) {
-    width: 50%;
+  @media (max-width: 900px) {
     position: relative;
     display: flex;
-    bottom: -80px;
+    margin: auto;
+  }
+
+  @media (max-width: 740px) {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    bottom: 80px;
+  }
+
+  @media (max-width: 500px) {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    bottom: -60px;
+    width: 50%;
     margin: auto;
   }
 `;
@@ -56,6 +73,11 @@ export const ProfilePic = styled.img`
   border-radius: 50%;
   width: 350px;
   height: 350px;
+
+  @media (max-width: 900px) {
+    width: 300px;
+    height: 300px;
+  }
 
   @media (max-width: 740px) {
     width: 200px;
