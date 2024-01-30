@@ -6,6 +6,7 @@ import AttivitaMockup from '../../assets/Attivitamockup.png';
 import MonographMockup from '../../assets/MonographMockup.jpg';
 import PosterImg from '../../assets/PaulRandPoster.jpeg';
 import Work from "../../components/work/work";
+import Certs from "../../components/certs/certs";
 
 function MainDisplay() {
 
@@ -17,8 +18,8 @@ function MainDisplay() {
   return (
     <MainContainer>
       <About/>
+      <Certs/>
       <Work/>
-      
       <HeadMain>
             <hr/>
                 <MainTitle>
