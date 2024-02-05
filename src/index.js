@@ -9,12 +9,12 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 const GATrackingID = process.env.GA_TRACKING_ID
 
-ReactGA.initialize([GATrackingID])
+ReactGA.initialize(GATrackingID)
 
 ReactGA.send({
   hitType: "pageview",
-  page: window.location.pathname
-})
+  page: window.location.pathname,
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
