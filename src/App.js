@@ -11,7 +11,6 @@ import Animation from './components/projects/animation';
 
 
 function App() {
-
   return (
       <Routes path="/" element={<Layout/>}>
         <Route index element={<Home/>}/>
