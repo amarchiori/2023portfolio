@@ -116,7 +116,7 @@ export default function Navbar() {
           overflowY: 'auto',
         }}
       >
-        {navItems.map((item, i) => (
+        {navItems.map((item) => (
           <a
             key={item}
             href={`#${item.toLowerCase()}`}
