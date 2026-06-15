@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&family=Inter:wght@400;600&family=JetBrains+Mono:wght@400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-page-bg: #0D0F14;
+  --color-surface: #13161E;
+  --color-border: #1F2330;
+  --color-text-primary: #F0F2F8;
+  --color-text-secondary: #9CA3AF;
+  --color-accent-red: #FF0844;
+  --color-soft-red: #FF6B8A;
+  --color-mint: #6EE7B7;
+
+  --font-display: 'DM Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  background-color: #0D0F14;
+  color: #F0F2F8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { min-height: 100vh; }
+
+/* ── Focus rings (accessibility) ─────────────────────── */
+:focus-visible {
+  outline: 2px solid #FF6B8A;
+  outline-offset: 3px;
+}
+
+/* ── Animations ──────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes drawWidth {
+  from { width: 0;    opacity: 0; }
+  to   { width: 100%; opacity: 1; }
+}
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.7; transform: scale(1);    }
+  50%       { opacity: 1;   transform: scale(1.12); }
+}
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0);  }
+  50%       { transform: translateY(7px); }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.anim-fade-up   { animation: fadeUp   0.7s cubic-bezier(0.22,1,0.36,1) both; }
+.anim-fade-in   { animation: fadeIn   0.6s ease both; }
+.anim-draw-line { animation: drawWidth 0.8s cubic-bezier(0.22,1,0.36,1) both; }
+
+/* Delay helpers */
+.delay-0 { animation-delay: 0s; }
+.delay-1 { animation-delay: 0.15s; }
+.delay-2 { animation-delay: 0.3s; }
+.delay-3 { animation-delay: 0.45s; }
+.delay-4 { animation-delay: 0.6s; }
+.delay-5 { animation-delay: 0.75s; }
+.delay-6 { animation-delay: 0.9s; }
+.delay-7 { animation-delay: 1.05s; }
+
+/* ── Default (desktop) layouts ───────────────────────── */
+.nav-links     { display: flex; }
+.nav-hamburger { display: none; }
+.mobile-drawer { display: none; }
+
+.about-stats    { grid-template-columns: repeat(4, 1fr); }
+.skills-grid    { grid-template-columns: repeat(2, 1fr); }
+.skills-grid-3  { grid-template-columns: repeat(3, 1fr); }
+.exp-grid       { grid-template-columns: repeat(3, 1fr); }
+.projects-grid  { grid-template-columns: repeat(3, 1fr); }
+.case-section   { grid-template-columns: 180px 1fr; gap: 2.5rem; }
+
+/* ── ≤ 1023px — tablet ───────────────────────────────── */
+@media (max-width: 1023px) {
+  .exp-grid      { grid-template-columns: repeat(2, 1fr); }
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── ≤ 1000px — skills 3→2 ──────────────────────────── */
+@media (max-width: 1000px) {
+  .skills-grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── ≤ 741px — mobile ───────────────────────────────── */
+@media (max-width: 741px) {
+  /* Navbar */
+  .nav-links      { display: none; }
+  .nav-hamburger  { display: flex; }
+  .mobile-drawer  { display: flex; }
+
+  /* Grids */
+  .about-stats   { grid-template-columns: repeat(2, 1fr); }
+  .skills-grid   { grid-template-columns: 1fr; }
+  .skills-grid-3 { grid-template-columns: 1fr; }
+  .exp-grid      { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .case-section  { grid-template-columns: 1fr; gap: 1.25rem; }
+
+  /* Hero CTAs stack */
+  .hero-cta   { flex-direction: column; align-items: flex-start; }
+  .hero-cta a { width: 100%; justify-content: center; }
+
+  /* Contact */
+  .contact-layout   { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .contact-name-row { grid-template-columns: 1fr !important; }
+
+  /* Certifications */
+  .cert-grid { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* Section horizontal padding */
+  section { padding-left: 1rem !important; padding-right: 1rem !important; }
+}
+
+/* ── ≤ 419px — very small ────────────────────────────── */
+@media (max-width: 419px) {
+  .about-stats { grid-template-columns: 1fr; }
+  .cert-grid   { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* ── Reduced motion ──────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up,
+  .anim-fade-in,
+  .anim-draw-line {
+    animation: none !important;
+    opacity: 1 !important;
+    width: 100% !important;
+  }
+  * { transition-duration: 0.01ms !important; }
+}
